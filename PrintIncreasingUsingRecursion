@@ -4,24 +4,24 @@ import java.util.*;
 public class PrintIncreasing {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method
 
 		
 		Scanner s = new Scanner(System.in);
-		int n = s.nextInt();
+		int t = s.nextInt();
 		
-		PrintIncreasing(n);
+		PrintIncreasing(t);
 		
 	}
 	
-	public static void PrintIncreasing(int n) {
+	public static void PrintIncreasing(int t) {
 		
-		if(n==0) {
+		if(t==0) {
 			return ;
 		}
 		
-		PrintIncreasing(n-1);
-		System.out.println(n);
+		PrintIncreasing(t-1);
+		System.out.println(t);
 	}
 
 }
