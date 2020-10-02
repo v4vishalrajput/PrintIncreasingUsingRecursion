@@ -4,11 +4,11 @@ import java.util.*;
 public class PrintIncreasing {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method
+		
 
 		
-		Scanner s = new Scanner(System.in);
-		int t = s.nextInt();
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
 		
 		PrintIncreasing(t);
 		
